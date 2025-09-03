@@ -35,7 +35,7 @@ codes and software such as MUMPS, ScaLAPACK, SCOTCH, BLAS, LAPACK, Voro++ and
 triangle. This is the online installer version, which downloads, prepares, and 
 installs all dependencies. The user must follow the instructions provided in the INSTALL file. 
 In order to run the different examples shown in the use User's Guide, this application
-requires the previous installation of MPICH2. Moreover, this software accounts only
+requires the previous installation of MPI. Moreover, this software accounts only
 with a parallel version, therefore, at least 2 threads must be indicated by the execution. 
 
 Please read this README file and the documentation for a complete list of 
