@@ -1,0 +1,63 @@
+This software must be installed in a Ubuntu distribution. In order to use the parallel 
+(distributed memory MPI based) application you need:
+
+-> OpenMPI
+
+It is recommended to install "libopenmpi-dev" using the Synaptic Package Manager. Or via terminal with:
+
+% sudo apt-get install libopenmpi-dev
+
+An additional option is MPICH using
+
+% sudo apt-get install mpich
+
+-> BLAS, LAPACK, zlib1g BISON and FLEX libraries with:
+
+% sudo apt-get install libblas-dev liblapack-dev zlib1g-dev bison flex
+
+-> BESLE compilation
+
+The MPI path is needed in the installation of SCOTCH, then a default path is provided at line 4 of the file Makefile.inc located at
+
+%~/BESLE_ROOT/MUMPS/scotch/src+
+
+The path is given by the flag \verb+MPIPATH+ 
+
+MPIPATH = -I/usr/include/x86_64-linux-gnu/mpich+
+
+To verify this path in the user's system, e.g., use
+
+% whereis mpich+
+
+To build the BESLE application
+
+%~/BESLE$ make+
+
+Now, standalone installation is completed! In order to delete all the generated files during compilation and restore the state as before any installation, use the command:
+
+%~/BESLE$ make uninstall+
+
+-----------------------------------------------------------------------------------
+
+Acknowledgments
+===============
+The authors would like to thank to the University of Campinas (Brazil), Brunel University London (UK), 
+and the University of Portsmouth (UK) for the facilities and structure provided to develop this version 
+of BESLE. The project was funded by the National Council for Scientific and Technological Development 
+CNPq (Grant Numbers: 312493/2013-4, 154283/2014-2 and 312536/2017-8), and the Brazilian Coordination for 
+the Improvement of Higher Education Personnel CAPES (Grant Number: 435214/2019-01). 
+
+This material is based upon work supported by the Air Force Office of Scientific 
+Research-AFOSR under Award Numbers FA9550-18-1-0113 and FA9550-20-1-0133.
+
+Andres F. Galvis was supported by the EPSRC New Investigator Award "Multiscale modelling of mechanical deterioration in lithium-ion batteries" Grant number EP/T000775/1.
+
+Luiz C. Wrobel also thanks the CNPq for his personal financial support (Grant Number: 303770/2019-8).
+
+Computational sources were provided by the Center for Computational Engineering and Science-CCES 
+at the University of Campinas funded by the Sao Paulo Research Foundation FAPESP (Grant Number: 2013/08293-7).
+
+
+====================================================================================================
+
+====================================================================================================
