@@ -40,7 +40,7 @@ with a parallel version, therefore, at least 2 threads must be indicated by the 
 
 Please read this README file and the documentation for a complete list of 
 functionalities. Documentation and publications related to BESLE can also 
-be found at https://github.com/GalvisA1087/BESLE.git. Please refer to INSTALL 
+be found at https://github.com/GalvisA1087/BESLE_v2.0.git. Please refer to INSTALL 
 for installation instructions.
 
   This version of BESLE is provided to you free of charge. It is
