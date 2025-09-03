@@ -14,7 +14,7 @@ University of Portsmouth
 
 03/09/2025
 
-====================================================================================================
+======================================================================================
 
 BESLE is a software for carrying out 3D simulations of solids under 
 quasi-static, inertial and high-rate boundary conditions for transient 
