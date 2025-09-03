@@ -40,7 +40,7 @@ with a parallel version, therefore, at least 2 threads must be indicated by the 
 
 Please read this README file and the documentation for a complete list of 
 functionalities. Documentation and publications related to BESLE can also 
-be found at https://github.com/Afgr1087/BESLE_v2.0.git. Please refer to INSTALL 
+be found at https://github.com/GalvisA1087/BESLE.git. Please refer to INSTALL 
 for installation instructions.
 
   This version of BESLE is provided to you free of charge. It is
@@ -113,6 +113,9 @@ Andres F. Galvis was supported by the EPSRC New Investigator Award "Multiscale m
 deterioration in lithium-ion batteries" Grant number EP/T000775/1.
 
 Luiz C. Wrobel also thanks the CNPq for his personal financial support (Grant Number: 303770/2019-8).
+
+Rahim Si Hadj Mohand was supported by Directorate-General for Scientific Research and Technological 
+Development (DG-RSDT) of Algerian government in the form of research grant. 
 
 Computational sources were provided by the Center for Computational Engineering and Science-CCES 
 at the University of Campinas funded by the Sao Paulo Research Foundation FAPESP (Grant Number: 2013/08293-7).
