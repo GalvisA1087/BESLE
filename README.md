@@ -15,6 +15,15 @@ University of Portsmouth
 03/09/2025
 
 ======================================================================================
+Contributors:
+	-v1.0: Andres F. Galvis, Daniel M. Prada, Lucas S. Moura, Cecilia Zavaglia, Jamie
+		   M. Foster, Paulo Sollero, and Luiz C. Wrobel. First released software, and
+		   original paper publication.
+	-v2.0: Andres F. Galvis, and Rahim Si Hadj Mohand. In this version, a new and
+		   easy installation procedure is incorporated for: i) online (dependencies are
+		   downloaded from repositories), and ii) standalone (dependencies are included).
+		   New Version Announcement (NVA).	
+======================================================================================
 
 BESLE is a software for carrying out 3D simulations of solids under 
 quasi-static, inertial and high-rate boundary conditions for transient 
