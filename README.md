@@ -15,6 +15,7 @@ University of Portsmouth
 03/09/2025
 
 ======================================================================================
+
 Contributors:
 	-v1.0: Andres F. Galvis, Daniel M. Prada, Lucas S. Moura, Cecilia Zavaglia, Jamie
 		   M. Foster, Paulo Sollero, and Luiz C. Wrobel. First released software, and
@@ -23,6 +24,7 @@ Contributors:
 		   easy installation procedure is incorporated for: i) online (dependencies are
 		   downloaded from repositories), and ii) standalone (dependencies are included).
 		   New Version Announcement (NVA).	
+
 ======================================================================================
 
 BESLE is a software for carrying out 3D simulations of solids under 
