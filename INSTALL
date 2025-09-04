@@ -51,6 +51,13 @@ Now, the installation is completed! In order to delete all the generated files d
 
 %~/BESLE$ make uninstall+
 
+In case where the download process stops unexpectedly and the user wants to clean up the incomplete generated folders, the following command is provided:
+
+%~/BESLE$ make clean+
+
+Which removes all the cloned directories. However, it is worth noting that the download process takes care to clean up
+any left directory before starting to download.
+
 -----------------------------------------------------------------------------------
 
 Acknowledgments
@@ -75,3 +82,4 @@ at the University of Campinas funded by the Sao Paulo Research Foundation FAPESP
 ====================================================================================================
 
 ====================================================================================================
+
