@@ -45,8 +45,8 @@ BESLE is composed by various Fortran 90 modules that can be compiled and
 modified from a Setup subroutine utility that is configured following the 
 instruction provided in the User's Guide. This software employs external free
 codes and software such as MUMPS, ScaLAPACK, SCOTCH, BLAS, LAPACK, Voro++ and 
-triangle. This is the online installer version, which downloads, prepares, and 
-installs all dependencies. The user must follow the instructions provided in the INSTALL file. 
+triangle. The installer downloads, prepares, and installs all these dependencies. 
+The user must follow the instructions provided in the INSTALL file. 
 In order to run the different examples shown in the use User's Guide, this application
 requires the previous installation of MPI. Moreover, this software accounts only
 with a parallel version, therefore, at least 2 threads must be indicated by the execution. 
@@ -97,10 +97,9 @@ Polycrystal/voro++/ 	3D Voronoi structure generator.
 Polycrystal/triangle/	two-dimensional quality mesh generator and Delaunay triangulator.
 
 
-The libraries voro++ and triangle have to be installed in case the user wants to
-reproduce artificial polycrystalline structures. If it is not the case, their 
-installation could be skipped. After BESLE compilation, temporary folders are generated 
-as follows.
+The libraries voro++ and triangle libraries are installed during the BESLE compilation 
+just in case the user wants to reproduce artificial polycrystalline structures. After 
+BESLE compilation, temporary folders are generated as follows.
 
 obj/ 	contains the *.o and *.mod files produced by the general compilation of BESLE.
 
